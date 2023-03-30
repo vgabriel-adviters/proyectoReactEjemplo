@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(173, 216, 230);
+    box-shadow: 0px 10px 10px rgba(128, 128, 128, 0.411);
+}
+header label {
+    font-size: 50px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+body {
+    background-color: rgba(173, 216, 230, 0.575);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.contenedor-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px 0px;
+    gap: 100px;
+    flex-grow: 1;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(173, 216, 230);
+    font-weight: 700;
+    padding: 10px;
+    box-shadow: 0px 10px 40px;
+}
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}

@@ -1,12 +1,12 @@
 import './Card.css'
 
 const Card =(props) => {
-    
+
     return <>
-    <div class="container">
+    <div class="container-card">
     <img src="../img/notfound.jpg" alt="Nombre del grupo"/>
-        <div class="contenedor">
-            <label for="nombre-grupo">Nombre de grupo: <br/><p></p></label>
+        <div class="contenedor-card">
+            <label for="nombre-grupo">Nombre de grupo: {props.grupoid}<br/><p></p></label>
             <button onclick="info(${card.id})">Mas detalles...</button>
         </div>
     </div>
